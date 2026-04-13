@@ -6,20 +6,15 @@ A Docker-based system for hands-on Computer Networks classes. Each student gets 
   <img src="docs/architecture.png" alt="Architecture diagram" width="600">
 </p>
 
-## Tech Stack
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Docker-24.0+-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=303030" alt="Docker">
-  <img src="https://img.shields.io/badge/Compose-v2-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=303030" alt="Docker Compose">
-  <img src="https://img.shields.io/badge/Ubuntu-24.04-E95420?style=for-the-badge&logo=ubuntu&logoColor=white&labelColor=303030" alt="Ubuntu">
-  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=303030" alt="Python">
-  <img src="https://img.shields.io/badge/Bash-5.x-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white&labelColor=303030" alt="Bash">
-  <img src="https://img.shields.io/badge/Nginx-latest-009639?style=for-the-badge&logo=nginx&logoColor=white&labelColor=303030" alt="Nginx">
-  <img src="https://img.shields.io/badge/ttyd-1.7.7-00ADD8?style=for-the-badge&logo=gnometerminal&logoColor=white&labelColor=303030" alt="ttyd">
-  <img src="https://img.shields.io/badge/OpenSSH-9.x-000000?style=for-the-badge&logo=openssh&logoColor=white&labelColor=303030" alt="OpenSSH">
-  <img src="https://img.shields.io/badge/Supervisor-4.x-37474F?style=for-the-badge&labelColor=303030" alt="Supervisor">
-  <img src="https://img.shields.io/badge/Pytest-30%20tests-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white&labelColor=303030" alt="Pytest">
-</p>
+![Docker](https://img.shields.io/badge/Docker-24+-2496ED?logo=docker&logoColor=white)
+![Compose](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-24.04-E95420?logo=ubuntu&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-5.x-4EAA25?logo=gnubash&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-latest-009639?logo=nginx&logoColor=white)
+![ttyd](https://img.shields.io/badge/ttyd-1.7.7-00ADD8?logo=gnometerminal&logoColor=white)
+![OpenSSH](https://img.shields.io/badge/OpenSSH-9.x-000000?logo=openssh&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-30%20tests-0A9EDC?logo=pytest&logoColor=white)
 
 ## Prerequisites
 
