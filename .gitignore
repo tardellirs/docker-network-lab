@@ -1,0 +1,5 @@
+docker-compose.yml
+credentials.txt
+credentials.json
+__pycache__/
+*.pyc

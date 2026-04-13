@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Networks Lab</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+        }
+        .container {
+            max-width: 720px;
+            width: 100%;
+        }
+        .card {
+            background: #1e293b;
+            border-radius: 12px;
+            padding: 2.5rem;
+            border: 1px solid #334155;
+        }
+        h1 {
+            color: #38bdf8;
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+        .subtitle {
+            color: #94a3b8;
+            font-size: 1rem;
+            margin-bottom: 2rem;
+        }
+        h2 {
+            color: #7dd3fc;
+            font-size: 1.1rem;
+            margin: 1.5rem 0 0.75rem 0;
+            border-bottom: 1px solid #334155;
+            padding-bottom: 0.5rem;
+        }
+        p { line-height: 1.6; margin-bottom: 0.75rem; }
+        code {
+            background: #0f172a;
+            color: #38bdf8;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 0.5rem;
+            margin-top: 0.75rem;
+        }
+        .tool {
+            background: #0f172a;
+            padding: 0.5rem 0.75rem;
+            border-radius: 6px;
+            font-family: monospace;
+            font-size: 0.9rem;
+            color: #a5f3fc;
+        }
+        .footer {
+            text-align: center;
+            color: #475569;
+            font-size: 0.85rem;
+            margin-top: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Computer Networks Lab</h1>
+            <p class="subtitle">Your personal server is up and running!</p>
+
+            <p>This is the default page of your Nginx web server.
+               You can edit it to build your own website.</p>
+
+            <h2>How to edit this page</h2>
+            <p>In your terminal, run:</p>
+            <p><code>nano /var/www/html/index.html</code></p>
+            <p>Or if you prefer Vim:</p>
+            <p><code>vim /var/www/html/index.html</code></p>
+
+            <h2>Available tools</h2>
+            <div class="tools-grid">
+                <div class="tool">ping</div>
+                <div class="tool">traceroute</div>
+                <div class="tool">nmap</div>
+                <div class="tool">tcpdump</div>
+                <div class="tool">curl</div>
+                <div class="tool">wget</div>
+                <div class="tool">dig</div>
+                <div class="tool">ip</div>
+                <div class="tool">netcat</div>
+                <div class="tool">iptables</div>
+                <div class="tool">python3</div>
+                <div class="tool">ifconfig</div>
+            </div>
+
+            <h2>Quick tips</h2>
+            <p>Test connectivity: <code>ping student02</code></p>
+            <p>View your network config: <code>ip addr show</code></p>
+            <p>Capture packets: <code>tcpdump -i eth0</code></p>
+            <p>Scan the network: <code>nmap 172.20.0.0/24</code></p>
+        </div>
+        <p class="footer">Computer Networks Lab</p>
+    </div>
+</body>
+</html>
