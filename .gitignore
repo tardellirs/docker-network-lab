@@ -3,3 +3,4 @@ credentials.txt
 credentials.json
 __pycache__/
 *.pyc
+CLAUDE.md

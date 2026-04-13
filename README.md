@@ -221,4 +221,4 @@ bash tests/test_integration.sh
 
 ## License
 
-Educational use. Built for Computer Networks classes.
+This project is licensed under the [MIT License](LICENSE).
