@@ -2,25 +2,9 @@
 
 A Docker-based system for hands-on Computer Networks classes. Each student gets their own isolated container — a mini-VPS with a web terminal, SSH access, and a personal web server.
 
-```
-┌──────────────────────────────────────────────────────────┐
-│                        VPS / Host                        │
-│                                                          │
-│  ┌────────────┐  ┌────────────┐       ┌────────────┐    │
-│  │  student01  │  │  student02  │  ...  │  studentN   │   │
-│  │            │  │            │       │            │    │
-│  │  ttyd  :7681│  │  ttyd  :7681│       │  ttyd  :7681│   │
-│  │  nginx :80  │  │  nginx :80  │       │  nginx :80  │   │
-│  │  sshd  :22  │  │  sshd  :22  │       │  sshd  :22  │   │
-│  └──────┬─────┘  └──────┬─────┘       └──────┬─────┘   │
-│         │               │                     │         │
-│  ───────┴───────────────┴─────────────────────┴──────   │
-│              lab-network (172.20.0.0/24)                  │
-│                                                          │
-│  Host ports:                                             │
-│    ttyd: 7001-700N    http: 8001-800N    ssh: 2201-220N  │
-└──────────────────────────────────────────────────────────┘
-```
+<p align="center">
+  <img src="docs/architecture.png" alt="Architecture diagram" width="600">
+</p>
 
 ## Prerequisites
 
